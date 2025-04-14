@@ -279,10 +279,12 @@ async def start(client, message):
                     )
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                        InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url="https://t.me/moviesbizz_yt"),
+                        InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
+                    ],[
+                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
                     ]]
                 else:
                     button = [[
@@ -471,11 +473,11 @@ async def start(client, message):
                     return
             if STREAM_MODE == True:
                 button = [[
-                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
-                    ],[
-                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
-                    ]]
+                    InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url="https://t.me/moviesbizz_yt"),
+                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                ],[
+                    InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+                ]]
             else:
                 button = [[
                         InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
@@ -542,11 +544,11 @@ async def start(client, message):
                     return
             if STREAM_MODE == True:
                 button = [[
-                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
-                    ],[
-                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
-                    ]]
+                    InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url="https://t.me/moviesbizz_yt"),
+                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                ],[
+                    InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+                ]]
             else:
                 button = [[
                     InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
@@ -612,11 +614,11 @@ async def start(client, message):
             return
     if STREAM_MODE == True:
         button = [[
-                InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
-         ],[
-                InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
-         ]]
+            InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url="https://t.me/moviesbizz_yt"),
+            InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+        ],[
+            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+        ]]
     else:
         button = [[
                 InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
