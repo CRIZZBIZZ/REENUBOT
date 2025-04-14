@@ -113,7 +113,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴘʀᴏᴄᴇꜱꜱɪɴɢ...⭕️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", """<b><code>{file_name}</code> \n\n🌟༺ ──•◈•─ ─•◈•──༻🌟
 ➧ പുതിയ സിനിമകൾ വേണോ? എന്നാൽ പെട്ടെന്ന് ഗ്രൂപ്പിൽ ജോയിൻ ആയിക്കോ
 
