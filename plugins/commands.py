@@ -280,8 +280,9 @@ async def start(client, message):
                 if STREAM_MODE == True:
                     button = [[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                    ],[
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                    ],[
+                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
                     ]]
                 else:
                     button = [[
@@ -471,8 +472,9 @@ async def start(client, message):
             if STREAM_MODE == True:
                 button = [[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                    ],[
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                    ],[
+                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
                     ]]
             else:
                 button = [[
@@ -541,8 +543,9 @@ async def start(client, message):
             if STREAM_MODE == True:
                 button = [[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                    ],[
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                    ],[
+                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
                     ]]
             else:
                 button = [[
@@ -610,8 +613,9 @@ async def start(client, message):
     if STREAM_MODE == True:
         button = [[
                 InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-         ],[
                 InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+         ],[
+                InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
          ]]
     else:
         button = [[
